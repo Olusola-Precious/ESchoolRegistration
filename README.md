@@ -1,2 +1,4 @@
-# myFLWDev_Repo
-My solution to the FLW Dev challenge.
+# Online School Student Admission Registration
+Online version of school admission registration for school's incoming students
+
+
