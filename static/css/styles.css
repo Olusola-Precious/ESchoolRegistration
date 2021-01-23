@@ -1,0 +1,106 @@
+/*
+ * Specific styles of signin component
+ */
+
+
+/*
+ * General styles
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.content {
+    margin-top: 200px;
+}
+
+.fig {
+    /* border: 2px solid green; */
+    height: 300px;
+    width: 300px;
+    margin: 0px 20px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.fig-xs {
+    /* border: 2px solid green; */
+    height: 300px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+.fig-img {
+    background: #fff;
+    width: 200px;
+    height: 200px;
+    padding: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px double #f5f6fa;
+    border-radius: 50%;
+    box-shadow: 5px 12px 10px #888888;
+}
+
+.fig-xs-img {
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    padding: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px double #f5f6fa;
+    border-radius: 50%;
+    box-shadow: 5px 12px 10px #888888;
+}
+
+.fig-cap {
+    display: inline-block;
+    margin: 15px auto;
+    font-weight: 900px;
+    line-height: normal;
+}
+
+.form-card {
+    margin: 15px auto;
+    padding: 20px;
+    border-top: 8px solid #0287D0;
+    border-left: 2px solid #ECF0F1;
+    border-right: 2px solid #ECF0F1;
+    border-bottom: 2px solid #ECF0F1;
+}
+
+.form-xs-card {
+    margin: -15px auto;
+    padding: 20px;
+    border-top: 8px solid #0287D0;
+    border-left: 2px solid #ECF0F1;
+    border-right: 2px solid #ECF0F1;
+    border-bottom: 2px solid #ECF0F1;
+}
+
+@keyframes Slide_up {
+    0% {
+        transform: translateY(250px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes Slide_down {
+    0% {
+        transform: translateY(-250px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
